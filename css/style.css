@@ -1,0 +1,200 @@
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+.page-body {
+  margin: 0;
+
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.page-header__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  list-style: none;
+
+  border-bottom: 1px solid #000000;
+}
+
+.page-header__link {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  transition: 0.2s;
+}
+
+.page-header__link:hover {
+  opacity: 0.5;
+}
+
+.intro {
+  margin-bottom: 100px;
+}
+
+.intro__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 0;
+
+  font-size: 34px;
+  text-align: center;
+}
+
+.intro__title {
+  margin: 0;
+
+  font-size: 47px;
+}
+
+.about,
+.portfolio {
+  margin-bottom: 90px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  background-color: #f6f6f6;
+}
+
+.about__title {
+  margin-bottom: 20px;
+}
+
+.about__text {
+  margin: 0;
+
+  text-align: center;
+}
+
+.about__text:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.about__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.skills {
+  margin-bottom: 100px;
+}
+
+.skills__title {
+  margin-bottom: 100px;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.portfolio__title {
+  margin-bottom: 100px;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+
+  list-style: none;
+
+  gap: 30px;
+}
+
+.portfolio__item {
+  text-align: center;
+}
+
+.portfolio__game-first {
+  width: 300px;
+  height: 533px;
+
+  border: none;
+}
+
+.portfolio__game-second,
+.portfolio__game-third {
+  width: 533px;
+  height: 300px;
+
+  border: none;
+}
+
+.page-footer {
+  margin-bottom: 100px;
+}
+
+.contacts__title {
+  margin-bottom: 100px;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+  list-style: none;
+
+  gap: 60px;
+}
+
+.social__item {
+  transition: 0.3s;
+}
+
+.social__item:hover {
+  opacity: 0.5;
+}
